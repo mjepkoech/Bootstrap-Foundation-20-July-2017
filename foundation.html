@@ -1,0 +1,162 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+<title>Tech Blog</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css" integrity="sha256-d0O0RqD1Znb+7fJMu0uPCNCBHMt7gYVguCC5Z+M9vFw=" crossorigin="anonymous" />
+  <style>
+  #img {
+border-radius: 50px;}
+
+.foundation-5-top-bar {
+  background: #333;
+  color: #fefefe;
+}
+
+.foundation-5-top-bar .menu {
+  background: #333;
+}
+
+.foundation-5-top-bar .menu a {
+  color: #fefefe;
+}
+
+.foundation-5-top-bar .is-dropdown-submenu {
+  border: 0;
+}
+
+.foundation-5-top-bar .is-dropdown-submenu-item.opens-right a::after {
+  border-color: transparent transparent transparent #fefefe;
+}
+
+.foundation-5-top-bar .js-drilldown-back > a::before {
+  border-color: transparent #fefefe transparent transparent;
+}
+
+.foundation-5-top-bar .is-drilldown-submenu-parent > a::after {
+  border-color: transparent transparent transparent #fefefe;
+}
+
+.foundation-5-top-bar .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {
+  border-color: #fefefe transparent transparent;
+
+}
+  </style>
+  </head>
+
+<div class="top-bar foundation-5-top-bar">
+  <div class="top-bar-title">
+    <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle></button>
+    </span>
+    <strong>Tech Blog</strong>
+  </div>
+  <div id="responsive-menu">
+    <div class="top-bar-left">
+      <ul class="dropdown vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown" data-auto-height="true" data-animate-height="true">
+        <li>
+          <a href="#">One</a>
+          <ul class="menu">
+            <li><a href="#">One</a></li>
+            <li><a href="#">Two</a></li>
+            <li>
+              <a href="#">Three</a>
+              <ul class="menu">
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li>
+                  <a href="#">Three</a>
+                  <ul class="menu">
+                    <li><a href="#">One</a></li>
+                    <li><a href="#">Two</a></li>
+                    <li><a href="#">Three</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><input type="search" placeholder="Search"></li>
+        <li><button type="button" class="button">Search</button></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+ <div class="row">
+   <div class="large-12 columns" width="100%">
+<img class="thumbnail" src="images/slide2.jpg">
+    </div>
+    <div class="row" id="content">
+      <div class="medium-8 columns">
+        <div class="blog-post">
+          <h3>Latest blog post <small>Monday July 2017 </small></h3>
+          <img class="thumbnail" src="https://dummyimage.com/850x350/000/fff.png&text=Replace+this+image">
+          <p>Responsive web design is about creating web pages that automatically adjust in all devices. CSS Frameworks include Foundation which is a responsive front-end framework that make it easy to design beautiful responsive websites, apps and emails that fits in every device. Bootstrap is also CSS framework for developing responsive, mobile-first web applications.
+</p>
+          <div class="callout">
+            <ul class="menu simple">
+              <li><a href="#" id="1">Author: Shaz</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="blog-post">
+         <h3>Blog 2 <small>Wednesday july 2017</small></h3>
+          <img class="thumbnail" src="https://placebear.com/850/350">
+          <p>Responsive web design is about creating web pages that automatically adjust in all devices. CSS Frameworks include Foundation which is a responsive front-end framework that make it easy to design beautiful responsive websites, apps and emails that fits in every device. Bootstrap is also CSS framework for developing responsive, mobile-first web applications.
+ </p>
+          <div class="callout">
+            <ul class="menu simple">
+              <li><a href="2" id="2">Author: Eva</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="blog-post">
+          <h3>Blog 3 <small> Monday September 19th 2016</small></h3>
+          <img class="thumbnail" src="http://baconmockup.com/850/350">
+          <p>Responsive web design is about creating web pages that automatically adjust in all devices. CSS Frameworks include Foundation which is a responsive front-end framework that make it easy to design beautiful responsive websites, apps and emails that fits in every device. Bootstrap is also CSS framework for developing responsive, mobile-first web applications.
+ <div class="callout">
+            <ul class="menu simple">
+              <li><a href="3" id="3">Author: Millie</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <div class="row" id="content">
+      <div class="medium-4 columns">
+        <ul class="vertical medium-horizontal menu">
+  <small>Find the work of our Authors</small>
+  <li><a href="#1"><i class="fi-list"></i> <span>Shaz</span></a></li>
+  <li><a href="#2"><i class="fi-list"></i> <span>Eva</span></a></li>
+  <li><a href="#3"><i class="fi-list"></i> <span>Milly</span></a></li>
+</ul>
+ <h3>Events coming up soon</h3>
+ <small>Monday 23 July</small>
+          <img class="thumbnail" id="img" src="https://dummyimage.com/850x350/000/fff.png&text=Replace+this+image" border-radius="15px">
+          <p> Come one come all</p>
+</div>
+  <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+          <div class="text-center">
+            <a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+          </div>
+                    &milly
+                    <div class="credits">@milly
+                    </div>
+                </div>
+      </div>
+    </div>
+    </footer>
+  </body>
+</html>
